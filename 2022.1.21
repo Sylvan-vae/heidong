@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+
+	short num1 = 10;
+	cout << "short占用内存空间为：" << sizeof(short);//short也可换为num1,因为sizeof(数据类型/变量）
+	int num2 = 10;
+	cout << "int占用内存空间为：" << sizeof(int);
+	 
+	system("pause");
+	return 0;
+}
