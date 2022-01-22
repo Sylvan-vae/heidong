@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	
+	bool flag = false;
+	cout << "给布尔类型flag赋值";
+	cin >> flag;
+	cout << "布尔类型flag=" << flag;
+
+	system("pause");
+	return 0;
+}
