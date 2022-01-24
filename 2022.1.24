@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int a = 100;
+	a /= 5;
+	cout << "a=" << a;
+
+	int a1 = 91;
+	int b = 90;
+	cout << "a1 != b"<<  
+
+    
+
+
+
+
+	system("pause");
+
+	return 0;
+}
