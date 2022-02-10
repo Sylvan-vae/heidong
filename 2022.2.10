@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int* p = NULL;//空指针不能进行访问
+	int a = 10;
+	int b = 10;
+
+	const int* h = &a;//常量指针指向的指不可以改，指针的指向可以改
+
+	int* const m = &b;
+	//指针常量中指针的指向不可以改，指向的值可以改
+
+	const int* const k = &a;
+	//const修饰指针和常量其指向和指向的指都不可以改 
+
+
+
+	system("pause");
+	return 0;
+}
