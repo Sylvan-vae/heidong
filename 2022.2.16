@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+#include <string>
+
+
+//学生信息
+struct student
+{
+	string name;
+	int age;
+	int score;
+};
+
+//老师
+struct teacher 
+{
+	int id;
+	string name;
+	int age;
+	struct student stu;
+
+
+};
+
+int main()
+{
+	teacher t;
+	t.id = 1111;
+	t.name = "老大";
+	t.age = 34;
+	t.stu.name = "小米";
+	t.stu.age = 23;
+	t.stu.score = 99;
+
+	cout << "老师:" << t.name << "老师编号:" << t.id << "老师年龄:" << t.age << "老师辅导的学生姓名：" << t.stu.name << "学生年龄：" << t.stu.age
+		<< "学生分数：" << t.stu.score << endl;
+
+
+
+
+
+	system("pause");
+	return 0;
+
+}
